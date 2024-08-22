@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/spoudel/Desktop/Research/Blockchain-RadioTrace-main/contracts/radiotraceContract.sol": {
+      "lastModificationDate": 1721847074346,
+      "contentHash": "5e25678eb785595ad02b2ae0765781ee",
+      "sourceName": "contracts/radiotraceContract.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.2 <0.9.0"
+      ],
+      "artifacts": [
+        "Radiotrace"
+      ]
+    }
+  }
+}

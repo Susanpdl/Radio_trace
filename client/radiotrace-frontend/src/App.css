@@ -1,0 +1,80 @@
+.App {
+  font-family: Arial, sans-serif;
+  width: 70%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  flex: 1;
+}
+
+nav {
+  flex: 2;
+  text-align: right;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.connect-wallet {
+  flex: 1;
+  text-align: right;
+  margin-right: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+form label {
+  margin-right: 10px;
+}
+
+form input,
+form button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
